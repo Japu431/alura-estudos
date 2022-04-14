@@ -1,0 +1,98 @@
+.header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navegation {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+.navegation li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.navegation a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 22px;
+
+  transition: 0.3s;
+}
+
+.navegation a:hover {
+  color: #e08c70;
+  margin-right: 4px;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos_lista {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.produtos_lista:hover {
+  border-color: #e08c70;
+}
+
+.produtos_lista:active {
+  border-color: #bf3001;
+}
+
+.produtos_lista:hover h2 {
+  font-size: 34px;
+}
+
+.produtos_imagem {
+  width: 100%;
+}
+
+.produtos_sobre {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos_descricao {
+  font-size: 18px;
+}
+
+.produtos_preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.rodape {
+  text-align: center;
+  background: url("../img/bg.jpg") repeat;
+  padding: 40px 0;
+}
+
+.rodape > p {
+  color: white;
+  margin-top: 20px;
+}
