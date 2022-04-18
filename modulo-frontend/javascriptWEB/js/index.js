@@ -15,17 +15,20 @@ for (let i = 0; i < pacientes.length; i++) {
     console.log("Peso inválido!");
     tdIMC.textContent = "Peso inválido!";
     pesoEhValido = false;
+    // paciente.style.color = "red"
+    paciente.classList.add("paciente-invalido");
   }
 
   if (altura < 0 || altura >= 3.0) {
     console.log("Altura inválida!");
     tdIMC.textContent = "Altura inválida!";
     alturaEhValido = false;
+    paciente.classList.add("paciente-invalido");
   }
 
   if (pesoEhValido && alturaEhValido) {
     let imc = peso / (altura * altura);
-    // invés de ficar 00.00000000000 ( numeros quebrados ) ele faz até 2 casas decimais
+    // invés de ficar 00.00000000000 ( numeros quebrados ) limita casas decimais
     tdIMC.textContent = imc.toFixed(2);
   }
 }
