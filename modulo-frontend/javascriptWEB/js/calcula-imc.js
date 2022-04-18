@@ -27,8 +27,15 @@ for (let i = 0; i < pacientes.length; i++) {
   }
 
   if (pesoEhValido && alturaEhValido) {
-    let imc = peso / (altura * altura);
+    let imc = calculaIMC(peso, altura);
     // invés de ficar 00.00000000000 ( numeros quebrados ) limita casas decimais
-    tdIMC.textContent = imc.toFixed(2);
+    tdIMC.textContent = imc;
   }
+}
+
+function calculaIMC(peso, altura) {
+  let imc = 0;
+  imc = peso / (altura * altura);
+
+  return imc.toFixed(2);
 }
