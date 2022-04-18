@@ -1,23 +1,25 @@
 class ContaCorrente {
-  constructor(agencia) {
-    this.agencia = agencia;
-    this._saldo = 0;
-  }
+  agencia;
+  cliente;
+  _saldo = 0;
 
   DepositarSaldo(value) {
-    if (value <= 0)
-      return console.log(`Não tem como receber valor menor que 0 reais...`);
+    if (value <= 0) return value;
 
     this._saldo += value;
-    return console.log(`Seu saldo é de ${this._saldo} reais`);
+    return this._saldo;
   }
 
   SacarSaldo(value) {
-    if (this._saldo < value)
-      return console.log(`Erro! Tentativa de sacar valor maior do que já tem!`);
+    if (this._saldo < value) return;
 
     this._saldo -= value;
-    return console.log(`Sucesso ao Sacar! Seu saldo é de ${this._saldo} reais`);
+    return this._saldo;
+  }
+
+  transferir(value, conta) {
+    const valorSacado = this.SacarSaldo(value);
+    conta.DepositarSaldo(valorSacado);
   }
 }
 
