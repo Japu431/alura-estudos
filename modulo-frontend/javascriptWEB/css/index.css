@@ -135,3 +135,22 @@ button:disabled {
 .paciente-invalido {
   background-color: rgb(221, 118, 118);
 }
+
+#messagens-error {
+  color: red;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: 0.6s;
+}
+
+#filtrar-tabela {
+  width: 240px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.invisivel {
+  display: none;
+}
