@@ -1,0 +1,11 @@
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\bin\Debug\netcoreapp2.2\cursoSintaxe.deps.json
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\bin\Debug\netcoreapp2.2\cursoSintaxe.runtimeconfig.json
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\bin\Debug\netcoreapp2.2\cursoSintaxe.runtimeconfig.dev.json
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\bin\Debug\netcoreapp2.2\cursoSintaxe.dll
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\bin\Debug\netcoreapp2.2\cursoSintaxe.pdb
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\obj\Debug\netcoreapp2.2\cursoSintaxe.csprojAssemblyReference.cache
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\obj\Debug\netcoreapp2.2\cursoSintaxe.csproj.CoreCompileInputs.cache
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\obj\Debug\netcoreapp2.2\cursoSintaxe.AssemblyInfoInputs.cache
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\obj\Debug\netcoreapp2.2\cursoSintaxe.AssemblyInfo.cs
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\obj\Debug\netcoreapp2.2\cursoSintaxe.dll
+C:\matheus\alura-estudos\modulo-backend\csharp\cursoSintaxe\obj\Debug\netcoreapp2.2\cursoSintaxe.pdb
